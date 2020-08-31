@@ -134,3 +134,6 @@ dmypy.json
 /csv/test.csv
 /csv/test.csv
 /file/test.dat
+/file/test.shelve.bak
+/file/test.shelve.dat
+/file/test.shelve.dir
