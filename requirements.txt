@@ -3,7 +3,7 @@ asgiref==3.2.3
 certifi==2019.11.28
 chardet==3.0.4
 colorama==0.4.3
-Django==3.1.1
+Django==3.1.8
 future==0.18.2
 geojson==2.5.0
 idna==2.8
