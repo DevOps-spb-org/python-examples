@@ -13,3 +13,5 @@
     1. [Работа с файловой системой](https://github.com/zerobot-ru/python-examples/blob/master/os/file-system.py)
 3. Работа со строками:
     1. [Работа со строками](https://github.com/zerobot-ru/python-examples/blob/master/string/string.py)
+4. Основные встроенные модули:
+    1. [Модуль random](https://github.com/zerobot-ru/python-examples/blob/master/modules/random.py)
