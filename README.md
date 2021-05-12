@@ -18,3 +18,5 @@
     2. [Модуль math](https://github.com/zerobot-ru/python-examples/blob/master/modules/math.py)
     3. [Модуль locale](https://github.com/zerobot-ru/python-examples/blob/master/modules/locale.py)
     4. [Модуль decimal](https://github.com/zerobot-ru/python-examples/blob/master/modules/decimal.py)
+5. Объектно-ориентированное программирование:
+    1. [Классы и объекты](https://github.com/zerobot-ru/python-examples/blob/master/oop/class.py)
