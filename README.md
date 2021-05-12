@@ -20,3 +20,7 @@
     4. [Модуль decimal](https://github.com/zerobot-ru/python-examples/blob/master/modules/decimal.py)
 5. Объектно-ориентированное программирование:
     1. [Классы и объекты](https://github.com/zerobot-ru/python-examples/blob/master/oop/class.py)
+    2. [Инкапсуляция](https://github.com/zerobot-ru/python-examples/blob/master/oop/encapsulation.py)
+    3. [Наследование](https://github.com/zerobot-ru/python-examples/blob/master/oop/inheritance.py)
+    4. [Полиморфизм](https://github.com/zerobot-ru/python-examples/blob/master/oop/polymorphism.py)
+    5. [Класс object](https://github.com/zerobot-ru/python-examples/blob/master/oop/object.py)
