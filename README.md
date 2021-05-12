@@ -15,3 +15,6 @@
     1. [Работа со строками](https://github.com/zerobot-ru/python-examples/blob/master/string/string.py)
 4. Основные встроенные модули:
     1. [Модуль random](https://github.com/zerobot-ru/python-examples/blob/master/modules/random.py)
+    2. [Модуль random](https://github.com/zerobot-ru/python-examples/blob/master/modules/math.py)
+    3. [Модуль random](https://github.com/zerobot-ru/python-examples/blob/master/modules/locale.py)
+    4. [Модуль random](https://github.com/zerobot-ru/python-examples/blob/master/modules/decimal.py)
