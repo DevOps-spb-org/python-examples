@@ -11,4 +11,5 @@
     5. [Работа с бинарными файлами при помощи модуля shelve](https://github.com/zerobot-ru/python-examples/blob/master/file/file-shelve.py)
 2. Работа с файловой системой:
     1. [Работа с файловой системой](https://github.com/zerobot-ru/python-examples/blob/master/os/file-system.py)
-   
+3. Работа со строками:
+    1. [Работа со строками](https://github.com/zerobot-ru/python-examples/blob/master/string/string.py)

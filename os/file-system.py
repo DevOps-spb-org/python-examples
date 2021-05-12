@@ -20,7 +20,7 @@ os.rename('somefile1', 'somefile2')
 os.remove('somefile')
 
 # Проверка на существование файла
-filename=input('Enter path: ')
+filename = input('Enter path: ')
 if os.path.exists(filename):
     print('File exist')
 else:
