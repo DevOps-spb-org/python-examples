@@ -31,5 +31,5 @@
     1. [Tkinter. Создание окна приложения](https://github.com/zerobot-ru/python-examples/blob/master/gui/tkinter.py)
 8. Базы данных в Python:
     1. [SQLite](https://github.com/zerobot-ru/python-examples/blob/master/db/sqlite.py)
-    2. [MySQL](https://github.com/zerobot-ru/python-examples/blob/master/db/mysql.py)
+    2. [MySQL](https://github.com/zerobot-ru/python-examples/blob/master/db/mysqldb.py)
     3. [PostgreSQL](https://github.com/zerobot-ru/python-examples/blob/master/db/postgresql.py)

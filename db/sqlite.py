@@ -1,53 +1,37 @@
 import sqlite3
 
-conn = sqlite3.connect('sqlite.db')
-cur = conn.cursor()
 
-cur.execute("""CREATE TABLE IF NOT EXISTS users(
-   userid INT PRIMARY KEY,
-   fname TEXT,
-   lname TEXT,
-   gender TEXT);
-""")
-conn.commit()
+def create_connection(path):
+    connection = None
+    try:
+        connection = sqlite3.connect(path)
+        print("Connection to SQLite DB successful")
+    except sqlite3.Error as e:
+        print(f"The error '{e}' occurred")
 
-cur.execute("""CREATE TABLE IF NOT EXISTS orders(
-   orderid INT PRIMARY KEY,
-   date TEXT,
-   userid TEXT,
-   total TEXT);
-""")
-conn.commit()
+    return connection
 
-cur.execute("""INSERT INTO users(userid, fname, lname, gender) 
-   VALUES('00001', 'Alex', 'Smith', 'male');""")
-conn.commit()
 
-user = ('00002', 'Lois', 'Lane', 'Female')
-cur.execute("INSERT INTO users VALUES(?, ?, ?, ?);", user)
-conn.commit()
+def execute_query(connection, query):
+    cursor = connection.cursor()
+    try:
+        cursor.execute(query)
+        connection.commit()
+        print("Query executed successfully")
+    except sqlite3.Error as e:
+        print(f"The error '{e}' occurred")
 
-more_users = [('00003', 'Peter', 'Parker', 'Male'), ('00004', 'Bruce', 'Wayne', 'male')]
-cur.executemany("INSERT INTO users VALUES(?, ?, ?, ?);", more_users)
-conn.commit()
 
-cur.execute("SELECT * FROM users;")
-one_result = cur.fetchone()
-print(one_result)
+connection = create_connection("sqlite.db")
 
-cur.execute("SELECT * FROM users;")
-three_results = cur.fetchmany(3)
-print(three_results)
+create_users_table = """
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  age INTEGER,
+  gender TEXT,
+  nationality TEXT
+);
+"""
 
-cur.execute("SELECT * FROM users;")
-all_results = cur.fetchall()
-print(all_results)
-
-cur.execute("DELETE FROM users WHERE lname='Parker';")
-conn.commit()
-
-cur.execute("""SELECT *, users.fname, users.lname FROM orders
-    LEFT JOIN users ON users.userid=orders.userid;""")
-print(cur.fetchall())
-
-conn.close()
+execute_query(connection, create_users_table)

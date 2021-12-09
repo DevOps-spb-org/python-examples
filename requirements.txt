@@ -19,3 +19,5 @@ sqlparse==0.3.0
 urllib3==1.26.5
 mysqlclient==2.1.0
 psycopg2==2.9.2
+mysql_connector_python==8.0.27
+protobuf==3.19.1
