@@ -130,6 +130,8 @@ dmypy.json
 
 # PyCharm
 .idea/
+
+# Work files
 /file/test.txt
 /csv/test.csv
 /csv/test.csv

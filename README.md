@@ -24,3 +24,8 @@
     3. [Наследование](https://github.com/zerobot-ru/python-examples/blob/master/oop/inheritance.py)
     4. [Полиморфизм](https://github.com/zerobot-ru/python-examples/blob/master/oop/polymorphism.py)
     5. [Класс object](https://github.com/zerobot-ru/python-examples/blob/master/oop/object.py)
+6. Работа с датами и временем:
+    1. [Модуль datetime](https://github.com/zerobot-ru/python-examples/blob/master/datetime/datetime.py)
+    2. [Операции с датами](https://github.com/zerobot-ru/python-examples/blob/master/datetime/datetimeformat.py)
+7. Создание графического интерфейса:
+    1. [Tkinter. Создание окна приложения](https://github.com/zerobot-ru/python-examples/blob/master/gui/tkinter.py)
