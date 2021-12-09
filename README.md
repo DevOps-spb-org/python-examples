@@ -33,3 +33,8 @@
     1. [SQLite](https://github.com/zerobot-ru/python-examples/blob/master/db/sqlite.py)
     2. [MySQL](https://github.com/zerobot-ru/python-examples/blob/master/db/mysqldb.py)
     3. [PostgreSQL](https://github.com/zerobot-ru/python-examples/blob/master/db/postgresql.py)
+9. Работа с Pandas (в процессе наполнения):
+    1. [Подготовка к работе](https://github.com/zerobot-ru/python-examples/blob/master/pandas/README.md)
+    2. [Использование Pandas](https://github.com/zerobot-ru/python-examples/blob/master/pandas/pandas_use.py)
+10. Прочее:
+    1. [Работа с telegram](https://github.com/zerobot-ru/python-examples/blob/master/misc/telegram.py)
