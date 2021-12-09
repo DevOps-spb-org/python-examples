@@ -29,3 +29,7 @@
     2. [Операции с датами](https://github.com/zerobot-ru/python-examples/blob/master/datetime/datetimeformat.py)
 7. Создание графического интерфейса:
     1. [Tkinter. Создание окна приложения](https://github.com/zerobot-ru/python-examples/blob/master/gui/tkinter.py)
+8. Базы данных в Python:
+    1. [SQLite](https://github.com/zerobot-ru/python-examples/blob/master/db/sqlite.py)
+    2. [MySQL](https://github.com/zerobot-ru/python-examples/blob/master/db/mysql.py)
+    3. [PostgreSQL](https://github.com/zerobot-ru/python-examples/blob/master/db/postgresql.py)

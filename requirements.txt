@@ -3,7 +3,7 @@ asgiref==3.3.4
 certifi==2019.11.28
 chardet==3.0.4
 colorama==0.4.3
-Django==3.1.9
+Django==3.1.13
 future==0.18.2
 geojson==2.5.0
 idna==2.8
@@ -17,3 +17,5 @@ requests==2.22.0
 six==1.14.0
 sqlparse==0.3.0
 urllib3==1.26.5
+mysqlclient==2.1.0
+psycopg2==2.9.2
