@@ -1,0 +1,1 @@
+[Загрузите набор данных](https://www.kaggle.com/CooperUnion/anime-recommendations-database)
