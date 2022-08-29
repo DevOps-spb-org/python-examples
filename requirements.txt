@@ -15,7 +15,7 @@ pytz==2019.3
 pywin32-ctypes==0.2.0
 requests==2.22.0
 six==1.14.0
-sqlparse==0.3.0
+sqlparse==0.4.2
 urllib3==1.26.5
 mysqlclient==2.1.0
 psycopg2==2.9.2
