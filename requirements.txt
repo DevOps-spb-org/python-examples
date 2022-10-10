@@ -17,7 +17,7 @@ requests==2.22.0
 six==1.16.0
 sqlparse==0.4.3
 urllib3==1.26.12
-mysqlclient==2.1.0
+mysqlclient==2.1.1
 psycopg2==2.9.2
 mysql_connector_python==8.0.27
 protobuf==4.21.7
