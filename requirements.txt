@@ -9,7 +9,7 @@ geojson==2.5.0
 idna==3.4
 pefile==2022.5.30
 PyInstaller==3.6
-pyowm==2.10.0
+pyowm==3.3.0
 pyTelegramBotAPI==4.2.2
 pytz==2022.4
 pywin32-ctypes==0.2.0
