@@ -1,4 +1,4 @@
-altgraph==0.17
+altgraph==0.17.3
 asgiref==3.5.2
 certifi==2019.11.28
 chardet==3.0.4
