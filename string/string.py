@@ -27,3 +27,8 @@ print(exist)  # 7
 # Перебор строки
 for char in string:
     print(char)
+
+# перебор строки по словам
+for worlds in string.split():
+    # print(worlds) # построчно
+    print(worlds, end=" ") # по пробелам
