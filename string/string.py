@@ -1,4 +1,6 @@
 string = "hello world"
+age = 40
+name = "User"
 
 # Получение подстроки
 sub_string1 = string[:5]
@@ -31,4 +33,7 @@ for char in string:
 # перебор строки по словам
 for worlds in string.split():
     # print(worlds) # построчно
-    print(worlds, end=" ") # по пробелам
+    print(worlds, end=" ")  # по пробелам
+
+# составление строки на основе каких-либо данных
+print("Возраст {0} -- {1} лет.".format(name, age))  # Возраст User -- 40 лет.
