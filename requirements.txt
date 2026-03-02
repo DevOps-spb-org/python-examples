@@ -20,7 +20,7 @@ urllib3==2.6.3
 mysqlclient==2.2.8
 psycopg2-binary==2.9.11
 mysql_connector_python==9.6.0
-protobuf==6.33.5
+protobuf==7.34.0
 numpy==2.4.2
 pandas==3.0.0
 telebot==0.0.5
