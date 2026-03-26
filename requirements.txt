@@ -13,7 +13,7 @@ pyowm==3.5.0
 pyTelegramBotAPI==4.31.0
 pytz==2025.2
 pywin32-ctypes==0.2.3
-requests==2.32.5
+requests==2.33.0
 six==1.17.0
 sqlparse==0.5.5
 urllib3==2.6.3
